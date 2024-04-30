@@ -1,0 +1,499 @@
+{
+    "company": [
+        {
+            "ename": "Burguer Sim Api",
+            "address": "Av. Carlos J. Arosemena 38, Quevedo",
+            "ePhone": "0942462758",
+            "email": "burguersimsapi@api.com",
+            "fundationalDate": "17-07-2020",
+            "website": "",
+            "slogan": "BurguerSim: Donde cada mordisco es una nueva aventura.",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_105345573.png?alt=media&token=37114e39-2fb8-4e5e-b62c-e4b0830c96fa",
+            "edescription": "Bienvenidos a BurgerSim, tu parada digital para las más deliciosas y suculentas hamburguesas simuladas. Aquí en BurgerSim, recreamos el sabor clásico de la comida rápida en un entorno totalmente virtual, perfecto para desarrolladores y entusiastas de la tecnología que desean probar sus habilidades culinarias digitales. "
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "lat": -1.012439347117317,
+            "lon": -79.46957397725198
+        }
+    ],
+    "geoSector": [
+        {
+            "id": 1,
+            "secName": "Sector Sucursal Quevedo",
+            "secState": true,
+            "detailGeoSector": [
+                {
+                    "lat": -0.979216662026599,
+                    "lon": -79.47912377502784
+                },
+                {
+                    "lat": -0.9815243327902765,
+                    "lon": -79.45673609051246
+                },
+                {
+                    "lat": -1.0004471726491342,
+                    "lon": -79.46296771403736
+                },
+                {
+                    "lat": -1.0013702352331615,
+                    "lon": -79.44104163126457
+                },
+                {
+                    "lat": -1.060214928155769,
+                    "lon": -79.45927490009667
+                },
+                {
+                    "lat": -1.054907412581667,
+                    "lon": -79.5017422604145
+                }
+            ]
+        }
+    ],
+    "branchs": [
+        {
+            "id": 1,
+            "razonSocial": "Sucursal Quevedo",
+            "sruc": "0942462444",
+            "sstate": true,
+            "semail": "sucursalquevedo@sims.api",
+            "sphone": "0958946212",
+            "saddress": "Av. Carlos J. Arosemena 38, Quevedo",
+            "sname": "Sucursal Quevedo",
+            "date_opening": "17-07-2020",
+            "id_weeklyShedules": 1,
+            "id_geosector": 1,
+            "location": [
+                {
+                    "lat": -1.012439347117317,
+                    "lon": -79.46957397725198
+                }
+            ],
+            "imagensucursal": ""
+        }
+    ],
+    "typesProducts": [
+        {
+            "id": 1,
+            "tpname": "Hamburguesas",
+            "Description": "",
+            "sState": true
+        },
+        {
+            "id": 2,
+            "tpname": "Bebidas",
+            "Description": "",
+            "sState": true
+        },
+        {
+            "id": 3,
+            "tpname": "Papas fritas",
+            "Description": "",
+            "sState": true
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "imagecategory": "",
+            "id_typesproducts": 1,
+            "catname": "Hamburguesas clasicas",
+            "description": "Variedad de hamburguesas clásicas para todos los gustos",
+            "sstate": true
+        },
+        {
+            "id": 2,
+            "imagecategory": "",
+            "id_typesproducts": 1,
+            "catname": "Hamburguesas especiales",
+            "description": "Hamburguesas gourmet con ingredientes especiales y sabrosos",
+            "sstate": true
+        },
+        {
+            "id": 3,
+            "imagecategory": "",
+            "id_typesproducts": 1,
+            "catname": "Hamburguesas vegetarianas",
+            "description": "Deliciosas hamburguesas sin carne, ideales para vegetarianos",
+            "sstate": true
+        }
+    ],
+    "weeklySchedules": [
+        {
+            "id": 1,
+            "nameh": "Horario de la sucursal Quevedo",
+            "detailWeeklySchedules": [
+                {
+                    "day": "L",
+                    "starTime": "07:00",
+                    "endTime": "21:00"
+                },
+                {
+                    "day": "M",
+                    "starTime": "07:00",
+                    "endTime": "21:00"
+                },
+                {
+                    "day": "X",
+                    "starTime": "07:00",
+                    "endTime": "21:00"
+                },
+                {
+                    "day": "J",
+                    "starTime": "07:00",
+                    "endTime": "19:30"
+                },
+                {
+                    "day": "V",
+                    "starTime": "07:00",
+                    "endTime": "12:00"
+                },
+                {
+                    "day": "V",
+                    "starTime": "14:00",
+                    "endTime": "20:00"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_142946345.png?alt=media&token=25880001-9aeb-4b07-9bf2-2eee27110d14",
+            "maincode": "000000001",
+            "productName": "Hamburguesa Clásica de Res",
+            "descriptionProduct": "Una deliciosa hamburguesa clásica con carne de res, lechuga, tomate, cebolla y salsa de tomate.",
+            "unitPrice": 5.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_141535518.png?alt=media&token=1efaaf10-cfa5-4ade-9ac7-fed4fdd234cf",
+            "maincode": "000000002",
+            "productName": "Hamburguesa con Queso",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, queso cheddar derretido, lechuga, tomate y cebolla.",
+            "unitPrice": 6.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_143624463.png?alt=media&token=7f72a46f-9983-4258-849b-19cc96a58611",
+            "maincode": "000000003",
+            "productName": "Hamburguesa con Bacon",
+            "descriptionProduct": "Una jugosa hamburguesa con carne de res, bacon crujiente, queso americano, lechuga y tomate.",
+            "unitPrice": 7.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_144251337.png?alt=media&token=47e13572-d870-4477-9934-b5e67d8ae7e5",
+            "maincode": "000000004",
+            "productName": "Hamburguesa BBQ",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, cebolla caramelizada, queso cheddar, bacon y salsa barbacoa.",
+            "unitPrice": 7.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_144634786.png?alt=media&token=7556347c-5dfb-450c-9789-8ca4471b4d8a",
+            "maincode": "000000005",
+            "productName": "Hamburguesa con Champiñones",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, champiñones salteados, queso suizo, lechuga y tomate.",
+            "unitPrice": 6.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_145115391.png?alt=media&token=f8523503-5da4-4038-8776-8714a306ddb4",
+            "maincode": "000000006",
+            "productName": "Hamburguesa con Huevo Frito",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, huevo frito, queso cheddar, lechuga y tomate.",
+            "unitPrice": 6.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_145556589.png?alt=media&token=c1266f4e-1231-4681-86cb-98e6e10ad9d0",
+            "maincode": "000000007",
+            "productName": "Hamburguesa Doble",
+            "descriptionProduct": "Una hamburguesa doble con doble carne de res, doble queso cheddar, lechuga, tomate y cebolla.",
+            "unitPrice": 8.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_145852381.png?alt=media&token=49c785c3-500c-4ee5-8c7a-c3a621174b5a",
+            "maincode": "000000008",
+            "productName": "Hamburguesa con Jalapeños",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, jalapeños picantes, queso pepper jack, lechuga y tomate.",
+            "unitPrice": 6.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_150310030.png?alt=media&token=965c56b8-9176-40ab-b240-25d3c3fc60f0",
+            "maincode": "000000009",
+            "productName": "Hamburguesa Clásica con Queso Azul",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, queso azul, cebolla morada, lechuga y tomate.",
+            "unitPrice": 7.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 1,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_150532756.png?alt=media&token=b8465304-a4db-4518-bce4-9f2f4f21d80f",
+            "maincode": "000000010",
+            "productName": "Hamburguesa con Salsa Barbecue",
+            "descriptionProduct": "Una hamburguesa clásica con carne de res, cebolla crujiente, queso cheddar, bacon y salsa barbacoa.",
+            "unitPrice": 7.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_150747273.png?alt=media&token=544775ec-c391-479e-a60c-e6d9c235ffe4",
+            "maincode": "000000011",
+            "productName": "Hamburguesa Gourmet con Foie Gras",
+            "descriptionProduct": "Una hamburguesa gourmet con carne de res Wagyu, foie gras, cebolla caramelizada, lechuga y tomate.",
+            "unitPrice": 12.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_151028150.png?alt=media&token=8b77a063-aa12-4f20-9144-24a1d6772c8d",
+            "maincode": "000000012",
+            "productName": "Hamburguesa Premium con Trufa",
+            "descriptionProduct": "Una hamburguesa premium con carne de res Angus, queso de cabra, salsa de trufa, lechuga y tomate.",
+            "unitPrice": 14.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_151355550.png?alt=media&token=350babb8-56b5-43a4-a947-52c8e3fec07f",
+            "maincode": "000000013",
+            "productName": "Hamburguesa Especial con Caviar",
+            "descriptionProduct": "Una hamburguesa especial con carne de res Kobe, caviar oscuro, espárragos, lechuga y tomate.",
+            "unitPrice": 19.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_152230246.png?alt=media&token=3338bf74-deab-4d4e-86bd-0e98d71feca4",
+            "maincode": "000000014",
+            "productName": "Hamburguesa Hawaiana",
+            "descriptionProduct": "Una hamburguesa exótica con carne de res, queso Emmental, piña asada, lechuga y tomate.",
+            "unitPrice": 16.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_152658584.png?alt=media&token=3f92fe3b-14c1-4643-abb5-d224dc164459",
+            "maincode": "000000015",
+            "productName": "Hamburguesa Gourmet con Salmón Ahumado",
+            "descriptionProduct": "Una hamburguesa gourmet con salmón ahumado, queso crema, pepino encurtido, lechuga y tomate.",
+            "unitPrice": 15.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_153003825.png?alt=media&token=dcfd1ee3-022e-4708-94eb-59f31e2c922c",
+            "maincode": "000000016",
+            "productName": "Hamburguesa Exclusiva con Carne de Kobe",
+            "descriptionProduct": "Una hamburguesa exclusiva con carne de Kobe, trufa blanca, queso asiago, lechuga y tomate.",
+            "unitPrice": 22.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_153546255.png?alt=media&token=93df9204-a65a-45c6-abb6-6e625e84253b",
+            "maincode": "000000017",
+            "productName": "Hamburguesa Premium con Langosta",
+            "descriptionProduct": "Una hamburguesa premium con langosta fresca, mayonesa de azafrán, aguacate, lechuga y tomate.",
+            "unitPrice": 29.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 2,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_153838677.png?alt=media&token=5013de10-8c31-4bfb-ba9b-89c8c3f6cee1",
+            "maincode": "000000018",
+            "productName": "Hamburguesa Gourmet con Cangrejo de Río",
+            "descriptionProduct": "Una hamburguesa gourmet con carne de cangrejo de río, queso suizo, pepinillos, lechuga y tomate.",
+            "unitPrice": 20.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_154141134.png?alt=media&token=a05a237c-afaf-4660-a128-ea525b92807e",
+            "maincode": "000000019",
+            "productName": "Hamburguesa de Garbanzos y Espinacas",
+            "descriptionProduct": "Una deliciosa hamburguesa vegetariana hecha con garbanzos, espinacas, cebolla, ajo y especias mediterráneas.",
+            "unitPrice": 8.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_154432842.png?alt=media&token=c026bbdd-a952-4e1d-999e-3aac89d106e6",
+            "maincode": "000000020",
+            "productName": "Hamburguesa de Lentejas y Zanahorias",
+            "descriptionProduct": "Una sabrosa hamburguesa vegetariana elaborada con lentejas, zanahorias, cebolla, ajo y comino.",
+            "unitPrice": 7.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_154703607.png?alt=media&token=616dde1c-a210-4cd3-a261-3c7473efd6f0",
+            "maincode": "000000021",
+            "productName": "Hamburguesa de Calabacín y Queso Feta",
+            "descriptionProduct": "Una hamburguesa vegetariana con calabacín rallado, queso feta desmenuzado, cebolla roja y orégano fresco.",
+            "unitPrice": 9.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_154920698.png?alt=media&token=da6ef012-fcee-444b-b34c-c71f58e972a6",
+            "maincode": "000000022",
+            "productName": "Hamburguesa de Berenjena y Tomate Seco",
+            "descriptionProduct": "Una hamburguesa vegetariana con berenjena asada, tomates secos hidratados, queso parmesano rallado y albahaca fresca.",
+            "unitPrice": 10.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_155222293.png?alt=media&token=e55c31dd-2fc1-4028-9a85-ca1cfc870842",
+            "maincode": "000000023",
+            "productName": "Hamburguesa de Champiñones y Avena",
+            "descriptionProduct": "Una hamburguesa vegetariana con champiñones salteados, avena, cebolla, ajo y perejil fresco.",
+            "unitPrice": 8.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_155427491.png?alt=media&token=fadafe2c-d5cd-4345-b8fe-3411334d823d",
+            "maincode": "000000024",
+            "productName": "Hamburguesa de Quinoa y Pimiento Rojo",
+            "descriptionProduct": "Una hamburguesa vegetariana con quinoa cocida, pimiento rojo asado, cebolla caramelizada y cilantro fresco.",
+            "unitPrice": 9.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_155658312.png?alt=media&token=a593205e-7e5c-4932-80f8-bae0f3d20151",
+            "maincode": "000000025",
+            "productName": "Hamburguesa de Tofu y Espárragos",
+            "descriptionProduct": "Una hamburguesa vegetariana con tofu marinado, espárragos a la parrilla, cebolla morada y salsa de tahini.",
+            "unitPrice": 10.49,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_155912667.png?alt=media&token=0962c6a8-16ea-464c-aa59-da0a29ed5876",
+            "maincode": "000000026",
+            "productName": "Hamburguesa de Remolacha y Frijoles Negros",
+            "descriptionProduct": "Una hamburguesa vegetariana con remolacha rallada, frijoles negros cocidos, cebolla roja y cilantro fresco.",
+            "unitPrice": 8.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_160108969.png?alt=media&token=edfcd03f-fc98-40bd-b35c-705f92ad5d82",
+            "maincode": "000000027",
+            "productName": "Hamburguesa de Soja y Sésamo",
+            "descriptionProduct": "Una hamburguesa vegetariana con proteína de soja texturizada, semillas de sésamo tostadas, cebolla caramelizada y cilantro fresco.",
+            "unitPrice": 9.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        },
+        {
+            "id_category": 3,
+            "imageP": "https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024-04-30_160407490.png?alt=media&token=cacd29b7-7388-44dc-86d7-a8f7ec906f97",
+            "maincode": "000000028",
+            "productName": "Hamburguesa de Setas y Cebolla Caramelizada",
+            "descriptionProduct": "Una hamburguesa vegetariana con setas salteadas, cebolla caramelizada, queso brie y rúcula fresca.",
+            "unitPrice": 10.99,
+            "IVA": true,
+            "ICE": false,
+            "IRBPNR": false,
+            "pEstado": true
+        }
+    ]
+}

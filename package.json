@@ -1,0 +1,22 @@
+{
+  "name": "burguersimsapi",
+  "version": "1.0.0",
+  "description": "Api for fake burguer store",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Jose Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
