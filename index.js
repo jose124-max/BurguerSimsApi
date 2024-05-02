@@ -214,10 +214,10 @@ app.get("/company/get-products/:limit/:page", (req, res) => {
     }
 })
 
-app.get("/company/get-products/:id", (req, res) => {
+app.get("/company/get-products/:maincode", (req, res) => {
     try {
         const productid = parseInt(req.params.id);
-        const productos = readData().products.find(prodcut => prodcut.id === productid);
+        const productos = readData().products.find(prodcut => prodcut.maincode === productid);
         if (productos) {
             res.json(productos);
         } else {
