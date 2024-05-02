@@ -29,6 +29,7 @@ app.get("/", (req, res) => {
 })
 app.get("/company/get-info", (req, res) => {
     const data = readData();
+    res.setHeader('Cache-Control', 'public, max-age=3600'); 
     res.send(data.company);
 })
 
@@ -147,8 +148,8 @@ app.get("/company/get-category/:limit/:page", (req, res) => {
 })
 
 app.get("/company/get-category/:id", (req, res) => {
-    const typesProductsid = parseInt(req.params.id);
-    const categories = readData().category.find(category => category.id_typesproducts === typesProductsid);
+    const categoryid = parseInt(req.params.id);
+    const categories = readData().category.find(category => category.id === categoryid);
     if (categories) {
         res.json(categories);
     } else {
