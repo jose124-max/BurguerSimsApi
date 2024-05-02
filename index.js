@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 })
 app.get("/company/get-info", (req, res) => {
     const data = readData();
-    res.setHeader('Cache-Control', 'public, max-age=3600'); 
+    res.setHeader('Cache-Control', 'public, max-age=3600');
     res.send(data.company);
 })
 
@@ -172,8 +172,8 @@ app.get("/company/get-category-by-type/:id/:limit/:page", (req, res) => {
         const endIndex = startIndex + limit;
         const categories = data.category.filter(category => category.id_typesproducts === typesProductsid);
         const paginatedItems = categories.slice(startIndex, endIndex);
-        
-        if (paginatedItems.length> 0) {
+
+        if (paginatedItems.length > 0) {
             res.json({
                 page: page,
                 limit: limit,
@@ -183,7 +183,7 @@ app.get("/company/get-category-by-type/:id/:limit/:page", (req, res) => {
         } else {
             res.status(404).json({ error: "Categories not found" });
         }
-        
+
     } catch (error) {
         console.log(error);
     }
@@ -214,6 +214,20 @@ app.get("/company/get-products/:limit/:page", (req, res) => {
     }
 })
 
+app.get("/company/get-products/:id", (req, res) => {
+    try {
+        const productid = parseInt(req.params.id);
+        const productos = readData().products.find(prodcut => prodcut.id === productid);
+        if (productos) {
+            res.json(productos);
+        } else {
+            res.status(404).json({ error: "Products not found" });
+        }
+    } catch (error) {
+        console.log(error);
+    }
+})
+
 app.get("/company/get-products-by-category/:id/:limit/:page", (req, res) => {
     try {
         const categoryid = parseInt(req.params.id);
@@ -230,8 +244,8 @@ app.get("/company/get-products-by-category/:id/:limit/:page", (req, res) => {
         const endIndex = startIndex + limit;
         const products = data.products.filter(products => products.id_category === categoryid);
         const paginatedItems = products.slice(startIndex, endIndex);
-        
-        if (paginatedItems.length> 0) {
+
+        if (paginatedItems.length > 0) {
             res.json({
                 page: page,
                 limit: limit,
@@ -241,7 +255,7 @@ app.get("/company/get-products-by-category/:id/:limit/:page", (req, res) => {
         } else {
             res.status(404).json({ error: "Products not found" });
         }
-        
+
     } catch (error) {
         console.log(error);
     }
