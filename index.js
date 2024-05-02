@@ -1,5 +1,6 @@
 import express from 'express';
 import fs, { read } from "fs";
+import { stringify } from 'querystring';
 
 const app = express();
 
@@ -216,7 +217,8 @@ app.get("/company/get-products/:limit/:page", (req, res) => {
 
 app.get("/company/get-products/:maincode", (req, res) => {
     try {
-        const productid = parseInt(req.params.id);
+        const productid = (req.params.maincode);
+        console.log(productid)
         const productos = readData().products.find(prodcut => prodcut.maincode === productid);
         if (productos) {
             res.json(productos);
