@@ -1,8 +1,13 @@
 import express from 'express';
 import fs, { read } from "fs";
 import { stringify } from 'querystring';
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors({
+    origin: '*',
+  }));
 
 const readData = () => {
     try {
