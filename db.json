@@ -79,45 +79,48 @@
             "id": 1,
             "tpname": "Hamburguesas",
             "Description": "",
-            "sState": true
+            "sState": true,
+            "imagen":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/imagen_2024h.png?alt=media&token=4109cc65-4b53-4093-9970-fa9529934425"
         },
         {
             "id": 2,
             "tpname": "Bebidas",
             "Description": "",
-            "sState": true
+            "sState": true,
+            "imagen":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img_2024_bb.png?alt=media&token=52141e6e-e693-4bd9-a213-ba1f926f927a"
         },
         {
             "id": 3,
             "tpname": "Papas fritas",
             "Description": "",
-            "sState": true
+            "sState": true,
+            "imagen":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img_2024pp.png?alt=media&token=852811ed-90e4-474c-8078-20b147cd55bf"
         }
     ],
     "category": [
         {
             "id": 1,
-            "imagecategory": "",
             "id_typesproducts": 1,
             "catname": "Hamburguesas clasicas",
             "description": "Variedad de hamburguesas clásicas para todos los gustos",
-            "sstate": true
+            "sstate": true,
+            "imagecategory":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img_2024_bc.png?alt=media&token=b7f90f2b-9381-48cb-a7c6-cccaaa920c58"
         },
         {
             "id": 2,
-            "imagecategory": "",
             "id_typesproducts": 1,
             "catname": "Hamburguesas especiales",
             "description": "Hamburguesas gourmet con ingredientes especiales y sabrosos",
-            "sstate": true
+            "sstate": true,
+            "imagecategory":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/burguer-2024special.png?alt=media&token=fa22e562-5cbc-49eb-85c5-10bd738688e3"
         },
         {
             "id": 3,
-            "imagecategory": "",
             "id_typesproducts": 1,
             "catname": "Hamburguesas vegetarianas",
             "description": "Deliciosas hamburguesas sin carne, ideales para vegetarianos",
-            "sstate": true
+            "sstate": true,
+            "imagecategory":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img-2024vv.png?alt=media&token=b8673eb6-4f69-499a-bf78-22847e309416"
         }
     ],
     "weeklySchedules": [
