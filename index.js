@@ -1,6 +1,5 @@
-import express from 'express';
-import fs, { read } from "fs";
-import { stringify } from 'querystring';
+const express = require('express');
+const fs = require("fs");
 const cors = require('cors');
 
 const app = express();
