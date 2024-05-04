@@ -121,6 +121,14 @@
             "description": "Deliciosas hamburguesas sin carne, ideales para vegetarianos",
             "sstate": true,
             "imagecategory":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img-2024vv.png?alt=media&token=b8673eb6-4f69-499a-bf78-22847e309416"
+        },
+        {
+            "id": 4,
+            "id_typesproducts": 2,
+            "catname": "Batido de piña",
+            "description": "Batido de piña",
+            "sstate": true,
+            "imagecategory":"https://firebasestorage.googleapis.com/v0/b/burguersimsapi.appspot.com/o/img-2024vv.png?alt=media&token=b8673eb6-4f69-499a-bf78-22847e309416"
         }
     ],
     "weeklySchedules": [
